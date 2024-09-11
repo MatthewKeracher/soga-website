@@ -11,6 +11,7 @@ background-color: #f0f0f0;
 color: #333;
 line-height: 1.6;
 padding: 20px;
+max-width: 1800px;
 }
 
 header {
@@ -18,6 +19,16 @@ background-color: #488991;
 color: white;
 padding: 10px 0;
 text-align: center;
+}
+
+.motto{
+position: fixed;
+width: 10%;
+left: 3%;;
+top: 2%;
+color: gold;
+font-style: italic;
+font-size: large;
 }
 
 .container {
