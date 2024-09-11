@@ -46,4 +46,5 @@ applyButton.addEventListener('click', function() {
         `
         
         left.innerHTML = `${becomeHost}`
+        defaultImages()
         });
