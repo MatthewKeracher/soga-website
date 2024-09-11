@@ -76,6 +76,6 @@ aboutButton.addEventListener('click', function() {
 left.innerHTML = `${aboutEnglish} ${historyEnglish}`// ${aboutChinese} `
 
 imageGrid.innerHTML = '';
-addImage('pamela.jpg',"Pamela Keracher 2010")
+addImage('mumdad.jpg',"Pam and Peter Keracher")
 
 });

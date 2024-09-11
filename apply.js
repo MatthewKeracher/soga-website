@@ -46,5 +46,6 @@ applyButton.addEventListener('click', function() {
         `
         
         left.innerHTML = `${becomeHost}`
-        defaultImages()
+        imageGrid.innerHTML = '';
+        addImage('christmasLunch.jpg',"Christmas Lunch")
         });
