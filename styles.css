@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+color: #333;
+line-height: 1.6;
+padding: 20px;
+}
+
+header {
+background-color: #488991;
+color: white;
+padding: 10px 0;
+text-align: center;
+}
+
+.container {
+display: flex;
+justify-content: space-between; 
+gap: 0px; 
+height: 100%;
+}
+
+
+.left {
+position: relative;
+width: 60%; 
+height: 100%;
+height: auto;
+background-color: #f0f0f0;
+text-align: justify;
+}
+
+.right {
+width: 30%;
+padding: 20px;
+background-color: #f0f0f0;
+}
+
+.bullet-list {
+margin-left: 40px; /* Indent the entire list */
+padding-left: 20px; /* Add space between bullet and text */
+list-style-type: disc; /* Bullet style (disc, circle, square) */
+}
+
+.image-grid {
+display: grid;
+grid-template-columns: repeat(1, 1fr); 
+grid-gap: 10px; 
+}
+
+.image-grid img {
+width: 100%; 
+height: auto; 
+border-radius: 5px; 
+object-fit: cover; 
+}
+
+.googleForm{
+width: 100%;
+height: 2000px;  
+border: none;
+}
+
+.box img {
+max-width: 100%; 
+max-height: 100%; 
+}
+
+header nav ul {
+list-style: none;
+}
+
+header nav ul li {
+display: inline;
+margin: 0 15px;
+}
+
+header nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+section {
+margin: 20px 0;
+}
+
+button {
+background-color: #488991;
+color: white;
+padding: 10px 15px;
+font-size: large;
+border: none;
+cursor: pointer;
+}
+
+button:hover{
+color:aqua
+}
+
+button:hover {
+background-color: #488991;
+}
+
+footer {
+margin-top: 20px;
+text-align: center;
+padding: 10px 0;
+background-color: #333;
+color: white;
+}
