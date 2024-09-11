@@ -27,7 +27,7 @@ The Scottish Overseas Guardianship Agency (SOGA) offers pastoral care and academ
 </p> 
 <br>
 <p>
-Most independent schools in the United Kingdom now require parents to a appoint a guardian.  This is easy if you have family or friends nearby but is more difficult if you do not have a social network in Scotland. SOGA works to place your child with a guardian family to support them in case of illness, suspension, or half-term holidays.
+Most independent schools in the United Kingdom now require parents to appoint a guardian.  This is easy if you have family or friends nearby but is more difficult if you do not have a social network in Scotland. SOGA works to place your child with a guardian family to support them in case of illness, suspension, or half-term holidays.
 </p> 
 <br>
 <p>
