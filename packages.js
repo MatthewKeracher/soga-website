@@ -21,8 +21,22 @@ let emergencyPackage = `<section id="emergency-package">
 Emergency Guardian Services
 </h2>
 <p>
-A guardian may also be needed during emergency situations throughout the school year. Although the phrase "emergency" may typically refer to extremely serious circumstances, in guardianship terms it often means accommodation at short notice. </p><br><p>If your child falls ill, the school may not be able to accommodate them in the medical suite. Especially if the illness is infectious such as cold, flu or stomach bugs.  In such times, the school will want the student to be off the premises to reduce the risk of the illness spreading throughout the school community. </p><br><p>Other situations which often require an emergency guardianship include suspension or exclusion. These are punishments that the school may enforce when the school rules are broken. </p><br><p> Another example may be related to travel. Sometimes, flights can be delayed or cancelled. Occasionally a young person can miss a flight. This could be due to weather conditions, time differences and misinterpretation of flight times. If any such case arises, the school will often seek out emergency guardians for accommodation. The Scottish Overseas Guardianship Association offer accommodation in these emergency situations. Each case is discussed and organised between SOGA and the school and parents on an individual basis.  
-</p> 
+A guardian may also be needed during emergency situations throughout the school year. Although the phrase "emergency" may typically refer to extremely serious circumstances, in guardianship terms it often means accommodation at short notice. </p> 
+<br>
+<h3>
+Illness or Injury
+</h3>
+<p>If your child falls ill, the school may not be able to accommodate them in the medical suite. Especially if the illness is infectious such as cold, flu or stomach bugs.  In such times, the school will want the student to be off the premises to reduce the risk of the illness spreading throughout the school community. </p> 
+<br>
+<h3>
+Exclusion from School
+</h3>
+<p>Other situations which often require an emergency guardianship include suspension or exclusion. These are punishments that the school may enforce when the school rules are broken. </p> 
+<br>
+<h3>
+Travel Emergencies
+</h3>
+<p> Another example may be related to travel. Sometimes, flights can be delayed or cancelled. Occasionally a young person can miss a flight. This could be due to weather conditions, time differences and misinterpretation of flight times. If any such case arises, the school will often seek out emergency guardians for accommodation. The Scottish Overseas Guardianship Association offer accommodation in these emergency situations. Each case is discussed and organised between SOGA and the school and parents on an individual basis.</p> 
 <br>
 </section>`;
 let europeanPackage = `<section id="european-package">
@@ -321,6 +335,7 @@ Pastoral Care
 
 packagesButton.addEventListener('click', function() {
 left.innerHTML = `${contentsTable}<hr>${emergencyPackage}<hr>${europeanPackage}<hr>${bronzePackage}<hr>${silverPackage}<hr>${goldPackage}<hr>${platPackage}`
+right.style.width = '40%'
 
 defaultImages()
 });

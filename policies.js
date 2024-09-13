@@ -1,6 +1,7 @@
 const policyButton = document.getElementById('policyButton');
 
 const policyNames = [
+    'Aims, Principles, and Practice',
     'Alternative Accomodation',
     'Anti-Bullying Including Cyber-Bullying',
     'Anti-Radicalism and Extremism',
@@ -9,6 +10,7 @@ const policyNames = [
     'Complaints',
     'Confidentiality and Data Protection',
     'Fire Safety Notice',
+    'Host Family Handbook',
     'Infection Control',
     'Job Descriptions',
     'Low Level Concerns',
@@ -55,6 +57,7 @@ All of our policies are written in line with the Scottish Government recommendat
 
 policyButton.addEventListener('click', function() {
     left.innerHTML = `${policies}`;
+    right.style.width = '40%'
     
     const fileList = document.getElementById('fileList');
         policyNames.forEach(file => {

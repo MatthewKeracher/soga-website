@@ -7,6 +7,7 @@ applyButton.addEventListener('click', function() {
     let googleForm = `<iframe class="googleForm" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLSdoN6IgMDjlyCqaWToXzRzm13gNQMjORa5UauaFOuU1GS3Azw/viewform?embedded=true" >Loading…</iframe>`
     
     left.innerHTML = `${googleForm}`
+    right.style.width = '40%'
     defaultImages()
     });
     
@@ -46,6 +47,7 @@ applyButton.addEventListener('click', function() {
         `
         
         left.innerHTML = `${becomeHost}`
+        right.style.width = '40%'
         imageGrid.innerHTML = '';
         addImage('christmasLunch.jpg',"Christmas Lunch")
         });

@@ -14,6 +14,7 @@ showHomePage();
 function showHomePage(){
 left.innerHTML = `${introEnglish}<hr>${introChinese}`;
 defaultImages()
+right.style.width = '40%'
 }
 
 //Homepage
@@ -122,6 +123,7 @@ How to Contact Us
 
 contactButton.addEventListener('click', function() {
 left.innerHTML = `${contactUs}`
+right.style.width = '80%'
 imageGrid.innerHTML = '';
 addMap();
 });

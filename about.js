@@ -2,9 +2,6 @@ const aboutButton = document.getElementById('aboutButton');
 
 //About Us
 let aboutEnglish = `<section id="about-soga-english">
-<h2>
-About Us
-</h2>
 <br>
 <p>
 SOGA is based in the historic city of Perth, in Scotland's central belt. Its central location is situated within an hour’s drive to both Edinburgh and Glasgow airports. SOGA is a family business managed by Pamela Keracher, husband Peter Keracher, and a small admin team. SOGA works to liaise between parents and schools to make arrangements best suited to their pastoral care and travel arrangements. Pamela Keracher, or a member of her small team, will visit the students at school. SOGA will also represent parents at any school events including teacher-parent evenings. 
@@ -74,6 +71,7 @@ SOGA位置于苏格兰的中心地带、历史悠久的珀斯(Perth)。其位置
 
 aboutButton.addEventListener('click', function() {
 left.innerHTML = `${aboutEnglish} ${historyEnglish}`// ${aboutChinese} `
+right.style.width = '40%'
 
 imageGrid.innerHTML = '';
 addImage('mumdad.jpg',"Pam and Peter Keracher")
