@@ -75,5 +75,6 @@ right.style.width = '40%'
 
 imageGrid.innerHTML = '';
 addImage('mumdad.jpg',"Pam and Peter Keracher")
-
+addImage('pam_with_students.jpg',"")
+addImage('kayaking.jpg',"")
 });
