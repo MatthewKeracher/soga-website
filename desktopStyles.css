@@ -38,6 +38,12 @@ height: 100%;
 margin-right: 4vw;
 }
 
+#pamProfile{
+height: 120%;
+margin-right: 4vw;
+bottom: 0;
+}
+
 h1 {
 flex-grow: 1; 
 font-family:'Times New Roman', Times, serif;
