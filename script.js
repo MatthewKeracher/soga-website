@@ -147,7 +147,7 @@ function addImage(src, altText) {
 function defaultImages(){
 
     imageGrid.innerHTML = '';
-    addImage('sogaLogo.png',"SOGA Logo by Evan Scott/Krumbsie")
+    //addImage('sogaLogo.png',"SOGA Logo by Evan Scott/Krumbsie")
     addImage('bsaLogo.jpg',"BSA Logo")
     addImage('AEGIS.jpg',"AEGIS Accreditation Certificate")
 

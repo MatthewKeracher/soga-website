@@ -1,8 +1,6 @@
 const policyButton = document.getElementById('policyButton');
 
 const policyNames = [
-    'Student Handbook',
-    'Parents Handbook',
     'Alternative Accomodation',
     'Anti-Bullying Including Cyber-Bullying',
     'Anti-Radicalism and Extremism',
@@ -17,10 +15,12 @@ const policyNames = [
     'Management of Ill Student',
     'Missing Student',
     'Online Guidance',
+    'Parents Handbook',
     'Privacy Notice',
     'Professional Code of Conduct',
     'Safe Care Plan for Hosts',
     'Safer Recruitment',
+    'Student Handbook',
     'Whistleblowing',
     'Welfare, Health, and Safety', 
 ];
