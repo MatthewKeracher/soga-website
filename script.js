@@ -2,6 +2,7 @@
 //Buttons
 const homeButton = document.getElementById('homeButton');
 const contactButton = document.getElementById('contactButton');
+const showContentsButton = document.getElementById('showContentsButton');
 const left = document.getElementById('left');
 const imageGrid = document.getElementById('imageGrid'); 
 
@@ -149,6 +150,23 @@ addImage('bsaLogo.jpg',"BSA Logo")
 addImage('AEGIS.jpg',"AEGIS Accreditation Certificate")
 
 }
+
+
+//Show Contents on Mobile Version
+showContentsButton.addEventListener('click', function() {
+    const contentsArea = document.getElementById('contents');
+    const buttons = contentsArea.querySelectorAll('.desktop');
+
+    buttons.forEach(button => {
+        if( button.style.display === 'block'){
+        button.style.display = 'none'
+        }else{
+        button.style.display = 'block'
+        button.style.width = '100%'
+        }
+    })
+
+});
 
 
 
