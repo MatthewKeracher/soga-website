@@ -29,9 +29,6 @@ const policyNames = [
 
 let policies = `<section id="policy-intro">
 
-<h2>
-Our Policies
-</h2>
 <p>
 The Scottish Overseas Guardianship Association adheres to a strict set of policies to ensure that our students are kept in a safe and secure environment while on leave from their boarding schools. These policies range from internet and online safety to safe care practice and health and safety. 
 </p> 
@@ -41,17 +38,22 @@ Our policies are designed to make sure that there are fundamental guidelines in 
 </p> 
 <br>
 <p>
-All of our policies are written in line with the Scottish Government recommendations for good practise when working with young people. Please find our policies documents below. These policies outline what we, at SOGA, expect from both host families and students. 
+All of our policies are written in line with the Scottish Government recommendations for good practise when working with young people. Please find our policies documents linked to the right. These policies outline what we, at SOGA, expect from both host families and students. 
 </p> 
-
-<br>
-
-<ul class="bullet-list" id="fileList"></ul>
 
 </section>`
 
+
+//policyContents.classList.add('rightContents')
+
 policyButton.addEventListener('click', function() {
     left.innerHTML = `${policies}`;
+
+    let policyContents = document.createElement('div');
+    policyContents.innerHTML = `<h3 style="margin-left: 40px">Our Policies</h3>
+    <ul class="bullet-list" id="fileList"></ul>`;
+    imageGrid.innerHTML = ``;
+    imageGrid.appendChild(policyContents)
     right.style.width = '40%'
     
     const fileList = document.getElementById('fileList');
@@ -65,5 +67,5 @@ policyButton.addEventListener('click', function() {
                 fileList.appendChild(li);
             });
 
-            defaultImages()
+            //defaultImages()
 });

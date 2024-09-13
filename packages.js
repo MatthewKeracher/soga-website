@@ -5,13 +5,14 @@ let contentsTable = `
 <br>
 <h2>Guardianship Packages</h2>
 <nav class="bullet-list"">
-    <ul>
-    <li><a href="#emergency-package">Emergency Guardianship Services</a></li>
-    <li><a href="#european-package">European Guardianship Package</a></li>
+    <ul> 
     <li><a href="#bronze-package">Worldwide Bronze Package</a></li>
     <li><a href="#silver-package">Worldwide Silver Package</a></li>
     <li><a href="#gold-package">Worldwide Gold Package</a></li>
     <li><a href="#plat-package">Worldwide Platinum Package</a></li>
+    <li><a href="#european-package">European Guardianship Package</a></li>
+     <li><a href="#emergency-package">Emergency Guardianship Services</a></li>
+    
     </ul>
 </nav><br>`
 let emergencyPackage = `<section id="emergency-package">
@@ -331,9 +332,17 @@ Pastoral Care
 
 </section>`
 
+let packageContents = document.createElement('div');
+packageContents.innerHTML = contentsTable;
+packageContents.classList.add('rightContents')
+
 packagesButton.addEventListener('click', function() {
-left.innerHTML = `${contentsTable}<hr>${emergencyPackage}<hr>${europeanPackage}<hr>${bronzePackage}<hr>${silverPackage}<hr>${goldPackage}<hr>${platPackage}`
+
+imageGrid.innerHTML = ``;
+imageGrid.appendChild(packageContents)
+
+left.innerHTML = `${bronzePackage}<hr>${silverPackage}<hr>${goldPackage}<hr>${platPackage}<hr>${europeanPackage}<hr>${emergencyPackage}`
 right.style.width = '40%'
 
-defaultImages()
+//defaultImages()
 });

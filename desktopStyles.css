@@ -54,6 +54,10 @@ flex-direction: row;
 background-color: #409ba7;
 }
 
+.rightContents{
+position: fixed;
+}
+
 
 #contents button {
 background-color: #409ba7;
