@@ -2,7 +2,6 @@
 const packagesButton = document.getElementById('packagesButton');
 
 let contentsTable = `
-<br>
 <h2>Guardianship Packages</h2>
 <nav class="bullet-list"">
     <ul> 
