@@ -7,11 +7,11 @@ const imageGrid = document.getElementById('imageGrid');
 
 //Start
 window.onload = function() {
-    showHomePage();
+showHomePage();
 };
 
 function showHomePage(){
-left.innerHTML = `${introEnglish}${introChinese}`;
+left.innerHTML = `${introEnglish}<hr>${introChinese}`;
 defaultImages()
 }
 
@@ -95,9 +95,6 @@ The Scottish Overseas Guardianship Agency (SOGA) 能帮您轻松解决这些问�
 
 homeButton.addEventListener('click', function() {
 showHomePage();
-
-
-
 });
 
 //Contact Us
@@ -129,27 +126,27 @@ addMap();
 });
 
 function addMap() {
-    const html = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793075.2352009034!2d-6.253587279252112!3d56.46827075863899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48863b3bc31db2a3%3A0x263d913f96652820!2s52%20Glasgow%20Rd%2C%20Perth%20PH2%200PB%2C%20UK!5e0!3m2!1sen!2sno!4v1726060286965!5m2!1sen!2sno" class="googleMap" allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
-    
-    const map = document.createElement('div'); 
-    map.innerHTML = html;
-    imageGrid.appendChild(map); // Append the image to the grid
+const html = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793075.2352009034!2d-6.253587279252112!3d56.46827075863899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48863b3bc31db2a3%3A0x263d913f96652820!2s52%20Glasgow%20Rd%2C%20Perth%20PH2%200PB%2C%20UK!5e0!3m2!1sen!2sno!4v1726060286965!5m2!1sen!2sno" class="googleMap" allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+
+const map = document.createElement('div'); 
+map.innerHTML = html;
+imageGrid.appendChild(map); // Append the image to the grid
 }
 
 
 function addImage(src, altText) {
-    const img = document.createElement('img'); // Create a new <img> element
-    img.src = 'images/' + src; // Set the image source
-    img.alt = altText; // Set the alt text
-    imageGrid.appendChild(img); // Append the image to the grid
+const img = document.createElement('img'); // Create a new <img> element
+img.src = 'images/' + src; // Set the image source
+img.alt = altText; // Set the alt text
+imageGrid.appendChild(img); // Append the image to the grid
 }
 
 function defaultImages(){
 
-    imageGrid.innerHTML = '';
-    //addImage('sogaLogo.png',"SOGA Logo by Evan Scott/Krumbsie")
-    addImage('bsaLogo.jpg',"BSA Logo")
-    addImage('AEGIS.jpg',"AEGIS Accreditation Certificate")
+imageGrid.innerHTML = '';
+//addImage('sogaLogo.png',"SOGA Logo by Evan Scott/Krumbsie")
+addImage('bsaLogo.jpg',"BSA Logo")
+addImage('AEGIS.jpg',"AEGIS Accreditation Certificate")
 
 }
 
