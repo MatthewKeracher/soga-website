@@ -1,7 +1,5 @@
-//Packages
+
 const packagesButton = document.getElementById('packagesButton');
-
-
 
 let contentsTable = `
 <br>

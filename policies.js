@@ -27,9 +27,6 @@ const policyNames = [
     'Welfare, Health, and Safety', 
 ];
 
-
-//Policies
-
 let policies = `<section id="policy-intro">
 
 <h2>
@@ -52,8 +49,6 @@ All of our policies are written in line with the Scottish Government recommendat
 <ul class="bullet-list" id="fileList"></ul>
 
 </section>`
-
-
 
 policyButton.addEventListener('click', function() {
     left.innerHTML = `${policies}`;
