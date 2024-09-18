@@ -11,7 +11,11 @@ display: none;
 header {
 flex-direction: row;
 align-items: flex-start;
-font-size: 100%;
+font-size: 50%;
+}
+
+#logo, #pamProfile {
+size: 50%;
 }
 
 .left {
