@@ -149,8 +149,8 @@ function defaultImages(){
 imageGrid.innerHTML = '';
 //addImage('sogaLogo.png',"SOGA Logo by Evan Scott/Krumbsie")
 addImage('bsaLogo.jpg',"BSA Logo")
-addImage('AEGIS.jpg',"AEGIS Accreditation Certificate")
-imageGrid.innerHTML += "<b>AEGIS Accreditation Confirmed July 2025</b>"
+//addImage('AEGIS.jpg',"AEGIS Accreditation Certificate")
+//imageGrid.innerHTML += "<b>AEGIS Accreditation Confirmed July 2025</b>"
 
 }
 
